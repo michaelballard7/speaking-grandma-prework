@@ -15,10 +15,11 @@
 def speak_to_grandma(string)
   saying = string
   if string.uppercase == string
-     "HUH?! SPEAK UP, SONNY!"
+    "No, NOT SINCE 1938!" 
   elsif string == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
   else 
+    "HUH?! SPEAK UP, SONNY!"
      
   end
 end
